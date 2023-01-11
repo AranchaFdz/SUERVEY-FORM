@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Survey_Form</title>
+</head>
+<body>
+  <div class="heading">
+      <h1 id="head">Survey Form</h1>
+      <h2 id="subheading"><i>Created by Arancha Fernández</i> </h2>
+  </div>
+  <form>
+    <div id="content1">
+      <label>Name</label> <br><br>
+      <input type="name" name="name" placeholder="Enter your name" class="box"> <br><br>
+      <label>E-mail</label> <br><br>
+      <input type="email" name="email" placeholder="Enter your email" class="box"> <br><br>
+      <label>Age (optional)</label> <br><br>
+      <input type="Age" name="age" placeholder="Enter your age" class="box"> <br><br>
+      <label> Which option best describes you?</label> <br><br>
+    <div id="option1">
+      <select>
+        <option name="Select Your Role"></option>
+        <option value="Student">Student</option>
+        <option value="Full Time Job">Full Time Job</option>
+        <option value="Full Time Learning">Full Time Learning</option>
+        <option value="Prefer Not To Say">Prefer Not To Say</option>
+        <option value="Other">Other</option>
+      </select>
+    </div>
+    <br>
+    <label id="head1">Would you recommend this site to a friend?</label> <br> <br>
+      <input type="radio" name="radio" class="larger">&nbsp&nbsp&nbspYes <br> <br>
+      <input type="radio" name="radio" class="larger">&nbsp&nbsp&nbspNo <br> <br>
+      <input type="radio" name="radio" class="larger">&nbsp&nbsp&nbspMaybe <br> <br>
+    <label>What is your favourite feature of the bootcamp?</label> <br>
+    <div id="option2">
+      <select>
+        <option name="Select an option">Select an option</option>
+        <option value="Challenges">Challenges</option>
+        <option value="Projects">Projects</option>
+        <option value="Community">Community</option>
+        <option value="Fun Learning">Fun Learning</option>
+      </select>
+    </div>
+    <br> <br>
+    <label id="head2"> What languages and Frameworks do you know? (check all that apply)</label> <br> <br>
+    <div id="content2">
+        <input type="checkbox" name="checkbox" class="larger"><label>  C</label></input> <br> <br>
+        <input type="checkbox" name="checkbox" class="larger"><label>  C++</label></input> <br> <br>
+        <input type="checkbox" name="checkbox" class="larger"><label>  C#</label></input> <br> <br>
+        <input type="checkbox" name="checkbox" class="larger"><label>  Java</label></input> <br> <br>
+        <input type="checkbox" name="checkbox" class="larger"><label>  Python</label></input> <br> <br>
+        <input type="checkbox" name="checkbox" class="larger"><label>  PHP</label></input> <br> <br>
+        <input type="checkbox" name="checkbox" class="larger"><label>  Javascript</label></input> <br> <br>
+        <input type="checkbox" name="checkbox" class="larger"><label>  React</label></input> <br> <br>
+        <input type="checkbox" name="checkbox" class="larger"><label>  Angular</label></input> <br> <br>
+        <input type="checkbox" name="checkbox" class="larger"><label>  Django</label></input> <br> <br>
+        <input type="checkbox" name="checkbox" class="larger"><label>  Spring</label></input> <br> <br>
+    </div>
+    <div>
+    <label id="head2">Any comments or suggestions?</label> <br> <br>
+    <textarea class="placeholder" placeholder="Enter your comment here...."></textarea> <br>
+    <button>Submit</button>
+    </div>
+  </form>
+</body>
+</html>
